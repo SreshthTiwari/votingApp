@@ -1,7 +1,7 @@
 import "./App.css"
 import Login from "./Components/Login/Login.jsx"
 import { initializeApp } from "firebase/app";
-import { getAuth, useAuthState } from "firebase/auth"
+import { getAuth } from "firebase/auth"
 import studentCard from "./Components/studentCard/studentCard.jsx"
 
 const firebaseConfig = {
@@ -20,7 +20,7 @@ const auth = getAuth()
 function App() {
   return (
     <>
-
+      <h1>Hello</h1>
     </>
   )
 }
