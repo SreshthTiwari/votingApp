@@ -1,4 +1,6 @@
 # Firebase, React JS Voting App
 
 1. Login as Admin
-2. Login as Voter
+  a. Add election details:
+    i. schoolName, Year, Position, Candidates
+3. Login as Voter
